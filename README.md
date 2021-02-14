@@ -6,9 +6,9 @@ It's my CS50 final project and I wanted to challenge myself building a full appl
 
 #### Tech stack
 
-*Django, Django Rest-Framework
-*React
-\*TailwindCSS
+-   Django, Django Rest-Framework
+-   React
+-   TailwindCSS
 
 The backend is build using Django and Django Rest-Framework, using JWT to interact with authentication  
 React is used for our frontend. Authentication is making use of JWT in order to explore Authentication
