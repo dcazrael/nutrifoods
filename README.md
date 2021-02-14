@@ -1,19 +1,19 @@
 # Nutrifoods
 
-Nutrifoods is a fullstack solution for Nutritional Data and Recipes
+Nutrifoods is a full-stack solution for Nutritional Data and Recipes
 
-It's my CS50 final project and I wanted to challenge myself building a full application.
+It's my CS50 final project and I wanted to challenge myself to build a full application.
 
 #### Tech stack
 
 -   Django, Django Rest-Framework
 -   React
--   TailwindCSS
+-   tailwindcss
 
-The backend is build using Django and Django Rest-Framework, using JWT to interact with authentication  
-React is used for our frontend. Authentication is making use of JWT in order to explore Authentication
+The backend is built using Django and Django Rest-Framework, using JWT to interact with authentication  
+React is used for our frontend. Authentication is making use of JWT to explore authentication
 
-The backend serves as our API, calling Nutritionix and Spoonacular APIs for our information, transforming data and serving it to the frontend.
+The backend serves as our API, calling Nutritionix and Spoonacular APIs for our information, transforming data, and serving it to the frontend.
 
 ## Installation
 
@@ -27,13 +27,13 @@ poetry shell
 poetry install
 ```
 
-We are using postgreSQL for this project, so you need to have that installed as well
+We are using PostgreSQL for this project, so you need to have that installed as well
 
 Copy the .env.example file and name it .env
 
-Change the values to your apporpriate values
+Change the values to your appropriate values
 
-Once your DB is created, you need to run migrations (from backend folder)
+Once your DB is created, you need to run migrations (from the backend folder)
 
 ```bash
 python ./manage.py makemigrations
@@ -72,11 +72,11 @@ npm install
 Copy the .env.example file and name it .env
 
 The important key is "REACT_APP_API_URL"
-This needs to point to your backends api endpoint
+This needs to point to your backends API endpoint
 As an example your.server.com/api
 
 The other keys are used in the footer for some templating
-Add the keys you need and leave the once out you don't
+Add the keys you need and leave the ones out you don't
 
 For local development, you need to proxy the requests for Axios.
 The proxy is set to http://localhost:8000 when you clone the repo.
