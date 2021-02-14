@@ -3,17 +3,21 @@
 Nutrifoods is a fullstack solution for Nutritional Data and Recipes
 
 It's my CS50 final project and I wanted to challenge myself building a full application.
-Tech stack
-Django, Django Rest-Framework
-React
-TailwindCSS
 
-The backend is build using Django and Django Rest-Framework, using JWT to interact with authentication
+#### Tech stack
+
+*Django, Django Rest-Framework
+*React
+\*TailwindCSS
+
+The backend is build using Django and Django Rest-Framework, using JWT to interact with authentication  
 React is used for our frontend. Authentication is making use of JWT in order to explore Authentication
 
 The backend serves as our API, calling Nutritionix and Spoonacular APIs for our information, transforming data and serving it to the frontend.
 
 ## Installation
+
+### Backend
 
 Use the dependency manager "poetry" to install the backend component
 
@@ -55,6 +59,8 @@ CORS_ORIGIN_WHITELIST = [
     "http://localhost:8080",
 ]
 ```
+
+### Frontend
 
 The frontend will be installed using NPM
 
