@@ -1,0 +1,82 @@
+[
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 1,
+        "fields": {
+            "name": "Fat",
+            "unit": "g",
+            "value": "78.00",
+            "nutrient": 204
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 2,
+        "fields": {
+            "name": "Saturated Fat",
+            "unit": "g",
+            "value": "20.00",
+            "nutrient": 606
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 3,
+        "fields": {
+            "name": "Cholesterol",
+            "unit": "mg",
+            "value": "300.00",
+            "nutrient": 601
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 4,
+        "fields": {
+            "name": "Total Carbohydrate",
+            "unit": "g",
+            "value": "275.00",
+            "nutrient": 205
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 5,
+        "fields": {
+            "name": "Sodium",
+            "unit": "mg",
+            "value": "2300.00",
+            "nutrient": 307
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 6,
+        "fields": {
+            "name": "Dietary Fiber",
+            "unit": "g",
+            "value": "28.00",
+            "nutrient": 291
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 7,
+        "fields": {
+            "name": "Protein",
+            "unit": "g",
+            "value": "28.00",
+            "nutrient": 203
+        }
+    },
+    {
+        "model": "api.dailyvaluefoodcomponent",
+        "pk": 8,
+        "fields": {
+            "name": "Added Sugars",
+            "unit": "g",
+            "value": "50.00",
+            "nutrient": 269
+        }
+    }
+]

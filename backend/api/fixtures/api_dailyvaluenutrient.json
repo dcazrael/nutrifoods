@@ -1,0 +1,272 @@
+[
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 1,
+        "fields": {
+            "name": "Vitamin A",
+            "unit": "mcg",
+            "value": "900.00",
+            "nutrient": 320
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 2,
+        "fields": {
+            "name": "Vitamin C",
+            "unit": "mg",
+            "value": "90.00",
+            "nutrient": 401
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 3,
+        "fields": {
+            "name": "Calcium",
+            "unit": "mg",
+            "value": "1300.00",
+            "nutrient": 301
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 4,
+        "fields": {
+            "name": "Iron",
+            "unit": "mg",
+            "value": "18.00",
+            "nutrient": 303
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 5,
+        "fields": {
+            "name": "Vitamin D",
+            "unit": "mcg",
+            "value": "20.00",
+            "nutrient": 324
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 6,
+        "fields": {
+            "name": "Vitamin E",
+            "unit": "mg",
+            "value": "15.00",
+            "nutrient": 323
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 7,
+        "fields": {
+            "name": "Vitamin K",
+            "unit": "mcg",
+            "value": "120.00",
+            "nutrient": 430
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 8,
+        "fields": {
+            "name": "Thiamin",
+            "unit": "mg",
+            "value": "1.20",
+            "nutrient": 404
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 9,
+        "fields": {
+            "name": "Riboflavin",
+            "unit": "mg",
+            "value": "1.30",
+            "nutrient": 405
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 10,
+        "fields": {
+            "name": "Niacin",
+            "unit": "mg",
+            "value": "16.00",
+            "nutrient": 406
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 11,
+        "fields": {
+            "name": "Vitamin B6",
+            "unit": "mg",
+            "value": "1.70",
+            "nutrient": 415
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 12,
+        "fields": {
+            "name": "Folate",
+            "unit": "mcg",
+            "value": "400.00",
+            "nutrient": 417
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 13,
+        "fields": {
+            "name": "Vitamin B12",
+            "unit": "mcg",
+            "value": "2.40",
+            "nutrient": 418
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 14,
+        "fields": {
+            "name": "Biotin",
+            "unit": "mcg",
+            "value": "30.00",
+            "nutrient": null
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 15,
+        "fields": {
+            "name": "Pantothenic acid",
+            "unit": "mg",
+            "value": "5.00",
+            "nutrient": 410
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 16,
+        "fields": {
+            "name": "Phosphorus",
+            "unit": "mg",
+            "value": "1250.00",
+            "nutrient": 305
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 17,
+        "fields": {
+            "name": "Iodine",
+            "unit": "mcg",
+            "value": "150.00",
+            "nutrient": null
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 18,
+        "fields": {
+            "name": "Magnesium",
+            "unit": "mg",
+            "value": "420.00",
+            "nutrient": 304
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 19,
+        "fields": {
+            "name": "Zinc",
+            "unit": "mg",
+            "value": "11.00",
+            "nutrient": 309
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 20,
+        "fields": {
+            "name": "Selenium",
+            "unit": "mcg",
+            "value": "55.00",
+            "nutrient": 317
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 21,
+        "fields": {
+            "name": "Copper",
+            "unit": "mg",
+            "value": "0.90",
+            "nutrient": 312
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 22,
+        "fields": {
+            "name": "Manganese",
+            "unit": "mg",
+            "value": "2.30",
+            "nutrient": 315
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 23,
+        "fields": {
+            "name": "Chromium",
+            "unit": "mcg",
+            "value": "35.00",
+            "nutrient": null
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 24,
+        "fields": {
+            "name": "Molybdenum",
+            "unit": "mcg",
+            "value": "45.00",
+            "nutrient": null
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 25,
+        "fields": {
+            "name": "Chloride",
+            "unit": "mg",
+            "value": "2300.00",
+            "nutrient": null
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 26,
+        "fields": {
+            "name": "Potassium",
+            "unit": "mg",
+            "value": "4700.00",
+            "nutrient": 306
+        }
+    },
+    {
+        "model": "api.dailyvaluenutrient",
+        "pk": 27,
+        "fields": {
+            "name": "Choline",
+            "unit": "mg",
+            "value": "550.00",
+            "nutrient": 421
+        }
+    }
+]

@@ -1,0 +1,1492 @@
+[
+    {
+        "model": "api.nutrient",
+        "pk": 203,
+        "fields": {
+            "usda_tag": "PROCNT",
+            "name": "Protein",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 204,
+        "fields": {
+            "usda_tag": "FAT",
+            "name": "Total lipid (fat)",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 205,
+        "fields": {
+            "usda_tag": "CHOCDF",
+            "name": "Carbohydrate, by difference",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 207,
+        "fields": {
+            "usda_tag": "ASH",
+            "name": "Ash",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 208,
+        "fields": {
+            "usda_tag": "ENERC_KCAL",
+            "name": "Energy",
+            "unit": "kcal",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 209,
+        "fields": {
+            "usda_tag": "STARCH",
+            "name": "Starch",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 210,
+        "fields": {
+            "usda_tag": "SUCS",
+            "name": "Sucrose",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 211,
+        "fields": {
+            "usda_tag": "GLUS",
+            "name": "Glucose (dextrose)",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 212,
+        "fields": {
+            "usda_tag": "FRUS",
+            "name": "Fructose",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 213,
+        "fields": {
+            "usda_tag": "LACS",
+            "name": "Lactose",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 214,
+        "fields": {
+            "usda_tag": "MALS",
+            "name": "Maltose",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 221,
+        "fields": {
+            "usda_tag": "ALC",
+            "name": "Alcohol, ethyl",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 255,
+        "fields": {
+            "usda_tag": "WATER",
+            "name": "Water",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 257,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "Adjusted Protein",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 262,
+        "fields": {
+            "usda_tag": "CAFFN",
+            "name": "Caffeine",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 263,
+        "fields": {
+            "usda_tag": "THEBRN",
+            "name": "Theobromine",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 268,
+        "fields": {
+            "usda_tag": "ENERC_KJ",
+            "name": "Energy",
+            "unit": "kJ",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 269,
+        "fields": {
+            "usda_tag": "SUGAR",
+            "name": "Sugars, total",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 287,
+        "fields": {
+            "usda_tag": "GALS",
+            "name": "Galactose",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 291,
+        "fields": {
+            "usda_tag": "FIBTG",
+            "name": "Fiber, total dietary",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 301,
+        "fields": {
+            "usda_tag": "CA",
+            "name": "Calcium, Ca",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 303,
+        "fields": {
+            "usda_tag": "FE",
+            "name": "Iron, Fe",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 304,
+        "fields": {
+            "usda_tag": "MG",
+            "name": "Magnesium, Mg",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 305,
+        "fields": {
+            "usda_tag": "P",
+            "name": "Phosphorus, P",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 306,
+        "fields": {
+            "usda_tag": "K",
+            "name": "Potassium, K",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 307,
+        "fields": {
+            "usda_tag": "NA",
+            "name": "Sodium, Na",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 309,
+        "fields": {
+            "usda_tag": "ZN",
+            "name": "Zinc, Zn",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 312,
+        "fields": {
+            "usda_tag": "CU",
+            "name": "Copper, Cu",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 313,
+        "fields": {
+            "usda_tag": "FLD",
+            "name": "Fluoride, F",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 315,
+        "fields": {
+            "usda_tag": "MN",
+            "name": "Manganese, Mn",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 317,
+        "fields": {
+            "usda_tag": "SE",
+            "name": "Selenium, Se",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 318,
+        "fields": {
+            "usda_tag": "VITA_IU",
+            "name": "Vitamin A, IU",
+            "unit": "IU",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 319,
+        "fields": {
+            "usda_tag": "RETOL",
+            "name": "Retinol",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 320,
+        "fields": {
+            "usda_tag": "VITA_RAE",
+            "name": "Vitamin A, RAE",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 321,
+        "fields": {
+            "usda_tag": "CARTB",
+            "name": "Carotene, beta",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 322,
+        "fields": {
+            "usda_tag": "CARTA",
+            "name": "Carotene, alpha",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 323,
+        "fields": {
+            "usda_tag": "TOCPHA",
+            "name": "Vitamin E (alpha-tocopherol)",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 324,
+        "fields": {
+            "usda_tag": "VITD",
+            "name": "Vitamin D",
+            "unit": "mcg",
+            "conversion_unit": "IU"
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 325,
+        "fields": {
+            "usda_tag": "ERGCAL",
+            "name": "Vitamin D2 (ergocalciferol)",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 326,
+        "fields": {
+            "usda_tag": "CHOCAL",
+            "name": "Vitamin D3 (cholecalciferol)",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 328,
+        "fields": {
+            "usda_tag": "VITD",
+            "name": "Vitamin D (D2 + D3)",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 334,
+        "fields": {
+            "usda_tag": "CRYPX",
+            "name": "Cryptoxanthin, beta",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 337,
+        "fields": {
+            "usda_tag": "LYCPN",
+            "name": "Lycopene",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 338,
+        "fields": {
+            "usda_tag": "LUT+ZEA",
+            "name": "Lutein + zeaxanthin",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 341,
+        "fields": {
+            "usda_tag": "TOCPHB",
+            "name": "Tocopherol, beta",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 342,
+        "fields": {
+            "usda_tag": "TOCPHG",
+            "name": "Tocopherol, gamma",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 343,
+        "fields": {
+            "usda_tag": "TOCPHD",
+            "name": "Tocopherol, delta",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 344,
+        "fields": {
+            "usda_tag": "TOCTRA",
+            "name": "Tocotrienol, alpha",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 345,
+        "fields": {
+            "usda_tag": "TOCTRB",
+            "name": "Tocotrienol, beta",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 346,
+        "fields": {
+            "usda_tag": "TOCTRG",
+            "name": "Tocotrienol, gamma",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 347,
+        "fields": {
+            "usda_tag": "TOCTRD",
+            "name": "Tocotrienol,delta",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 401,
+        "fields": {
+            "usda_tag": "VITC",
+            "name": "Vitamin C, total ascorbic acid",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 404,
+        "fields": {
+            "usda_tag": "THIA",
+            "name": "Thiamin",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 405,
+        "fields": {
+            "usda_tag": "RIBF",
+            "name": "Riboflavin",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 406,
+        "fields": {
+            "usda_tag": "NIA",
+            "name": "Niacin",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 410,
+        "fields": {
+            "usda_tag": "PANTAC",
+            "name": "Pantothenic acid",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 415,
+        "fields": {
+            "usda_tag": "VITB6A",
+            "name": "Vitamin B-6",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 417,
+        "fields": {
+            "usda_tag": "FOL",
+            "name": "Folate, total",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 418,
+        "fields": {
+            "usda_tag": "VITB12",
+            "name": "Vitamin B-12",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 421,
+        "fields": {
+            "usda_tag": "CHOLN",
+            "name": "Choline, total",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 428,
+        "fields": {
+            "usda_tag": "MK4",
+            "name": "Menaquinone-4",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 429,
+        "fields": {
+            "usda_tag": "VITK1D",
+            "name": "Dihydrophylloquinone",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 430,
+        "fields": {
+            "usda_tag": "VITK1",
+            "name": "Vitamin K (phylloquinone)",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 431,
+        "fields": {
+            "usda_tag": "FOLAC",
+            "name": "Folic acid",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 432,
+        "fields": {
+            "usda_tag": "FOLFD",
+            "name": "Folate, food",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 435,
+        "fields": {
+            "usda_tag": "FOLDFE",
+            "name": "Folate, DFE",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 454,
+        "fields": {
+            "usda_tag": "BETN",
+            "name": "Betaine",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 501,
+        "fields": {
+            "usda_tag": "TRP_G",
+            "name": "Tryptophan",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 502,
+        "fields": {
+            "usda_tag": "THR_G",
+            "name": "Threonine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 503,
+        "fields": {
+            "usda_tag": "ILE_G",
+            "name": "Isoleucine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 504,
+        "fields": {
+            "usda_tag": "LEU_G",
+            "name": "Leucine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 505,
+        "fields": {
+            "usda_tag": "LYS_G",
+            "name": "Lysine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 506,
+        "fields": {
+            "usda_tag": "MET_G",
+            "name": "Methionine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 507,
+        "fields": {
+            "usda_tag": "CYS_G",
+            "name": "Cystine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 508,
+        "fields": {
+            "usda_tag": "PHE_G",
+            "name": "Phenylalanine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 509,
+        "fields": {
+            "usda_tag": "TYR_G",
+            "name": "Tyrosine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 510,
+        "fields": {
+            "usda_tag": "VAL_G",
+            "name": "Valine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 511,
+        "fields": {
+            "usda_tag": "ARG_G",
+            "name": "Arginine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 512,
+        "fields": {
+            "usda_tag": "HISTN_G",
+            "name": "Histidine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 513,
+        "fields": {
+            "usda_tag": "ALA_G",
+            "name": "Alanine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 514,
+        "fields": {
+            "usda_tag": "ASP_G",
+            "name": "Aspartic acid",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 515,
+        "fields": {
+            "usda_tag": "GLU_G",
+            "name": "Glutamic acid",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 516,
+        "fields": {
+            "usda_tag": "GLY_G",
+            "name": "Glycine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 517,
+        "fields": {
+            "usda_tag": "PRO_G",
+            "name": "Proline",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 518,
+        "fields": {
+            "usda_tag": "SER_G",
+            "name": "Serine",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 521,
+        "fields": {
+            "usda_tag": "HYP",
+            "name": "Hydroxyproline",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 539,
+        "fields": {
+            "usda_tag": "SUGAR_ADD",
+            "name": "Sugars, added",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 573,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "Vitamin E, added",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 578,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "Vitamin B-12, added",
+            "unit": "mcg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 601,
+        "fields": {
+            "usda_tag": "CHOLE",
+            "name": "Cholesterol",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 605,
+        "fields": {
+            "usda_tag": "FATRN",
+            "name": "Fatty acids, total trans",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 606,
+        "fields": {
+            "usda_tag": "FASAT",
+            "name": "Fatty acids, total saturated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 607,
+        "fields": {
+            "usda_tag": "F4D0",
+            "name": "4:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 608,
+        "fields": {
+            "usda_tag": "F6D0",
+            "name": "6:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 609,
+        "fields": {
+            "usda_tag": "F8D0",
+            "name": "8:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 610,
+        "fields": {
+            "usda_tag": "F10D0",
+            "name": "10:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 611,
+        "fields": {
+            "usda_tag": "F12D0",
+            "name": "12:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 612,
+        "fields": {
+            "usda_tag": "F14D0",
+            "name": "14:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 613,
+        "fields": {
+            "usda_tag": "F16D0",
+            "name": "16:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 614,
+        "fields": {
+            "usda_tag": "F18D0",
+            "name": "18:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 615,
+        "fields": {
+            "usda_tag": "F20D0",
+            "name": "20:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 617,
+        "fields": {
+            "usda_tag": "F18D1",
+            "name": "18:1 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 618,
+        "fields": {
+            "usda_tag": "F18D2",
+            "name": "18:2 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 619,
+        "fields": {
+            "usda_tag": "F18D3",
+            "name": "18:3 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 620,
+        "fields": {
+            "usda_tag": "F20D4",
+            "name": "20:4 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 621,
+        "fields": {
+            "usda_tag": "F22D6",
+            "name": "22:6 n-3 (DHA)",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 624,
+        "fields": {
+            "usda_tag": "F22D0",
+            "name": "22:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 625,
+        "fields": {
+            "usda_tag": "F14D1",
+            "name": "14:01",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 626,
+        "fields": {
+            "usda_tag": "F16D1",
+            "name": "16:1 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 627,
+        "fields": {
+            "usda_tag": "F18D4",
+            "name": "18:04",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 628,
+        "fields": {
+            "usda_tag": "F20D1",
+            "name": "20:01",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 629,
+        "fields": {
+            "usda_tag": "F20D5",
+            "name": "20:5 n-3 (EPA)",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 630,
+        "fields": {
+            "usda_tag": "F22D1",
+            "name": "22:1 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 631,
+        "fields": {
+            "usda_tag": "F22D5",
+            "name": "22:5 n-3 (DPA)",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 636,
+        "fields": {
+            "usda_tag": "PHYSTR",
+            "name": "Phytosterols",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 638,
+        "fields": {
+            "usda_tag": "STID7",
+            "name": "Stigmasterol",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 639,
+        "fields": {
+            "usda_tag": "CAMD5",
+            "name": "Campesterol",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 641,
+        "fields": {
+            "usda_tag": "SITSTR",
+            "name": "Beta-sitosterol",
+            "unit": "mg",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 645,
+        "fields": {
+            "usda_tag": "FAMS",
+            "name": "Fatty acids, total monounsaturated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 646,
+        "fields": {
+            "usda_tag": "FAPU",
+            "name": "Fatty acids, total polyunsaturated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 652,
+        "fields": {
+            "usda_tag": "F15D0",
+            "name": "15:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 653,
+        "fields": {
+            "usda_tag": "F17D0",
+            "name": "17:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 654,
+        "fields": {
+            "usda_tag": "F24D0",
+            "name": "24:00:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 662,
+        "fields": {
+            "usda_tag": "F16D1T",
+            "name": "16:1 t",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 663,
+        "fields": {
+            "usda_tag": "F18D1T",
+            "name": "18:1 t",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 664,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "22:1 t",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 665,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "18:2 t not further defined",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 666,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "18:2 i",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 669,
+        "fields": {
+            "usda_tag": "F18D2TT",
+            "name": "18:2 t,t",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 670,
+        "fields": {
+            "usda_tag": "F18D2CLA",
+            "name": "18:2 CLAs",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 671,
+        "fields": {
+            "usda_tag": "F24D1C",
+            "name": "24:1 c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 672,
+        "fields": {
+            "usda_tag": "F20D2CN6",
+            "name": "20:2 n-6 c,c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 673,
+        "fields": {
+            "usda_tag": "F16D1C",
+            "name": "16:1 c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 674,
+        "fields": {
+            "usda_tag": "F18D1C",
+            "name": "18:1 c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 675,
+        "fields": {
+            "usda_tag": "F18D2CN6",
+            "name": "18:2 n-6 c,c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 676,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "22:1 c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 685,
+        "fields": {
+            "usda_tag": "F18D3CN6",
+            "name": "18:3 n-6 c,c,c",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 687,
+        "fields": {
+            "usda_tag": "F17D1",
+            "name": "17:01",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 689,
+        "fields": {
+            "usda_tag": "F20D3",
+            "name": "20:3 undifferentiated",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 693,
+        "fields": {
+            "usda_tag": "FATRNM",
+            "name": "Fatty acids, total trans-monoenoic",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 695,
+        "fields": {
+            "usda_tag": "FATRNP",
+            "name": "Fatty acids, total trans-polyenoic",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 696,
+        "fields": {
+            "usda_tag": "F13D0",
+            "name": "13:00",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 697,
+        "fields": {
+            "usda_tag": "F15D1",
+            "name": "15:01",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 851,
+        "fields": {
+            "usda_tag": "F18D3CN3",
+            "name": "18:3 n-3 c,c,c (ALA)",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 852,
+        "fields": {
+            "usda_tag": "F20D3N3",
+            "name": "20:3 n-3",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 853,
+        "fields": {
+            "usda_tag": "F20D3N6",
+            "name": "20:3 n-6",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 855,
+        "fields": {
+            "usda_tag": "F20D4N6",
+            "name": "20:4 n-6",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 856,
+        "fields": {
+            "usda_tag": "NULL",
+            "name": "18:3i",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    },
+    {
+        "model": "api.nutrient",
+        "pk": 857,
+        "fields": {
+            "usda_tag": "F21D5",
+            "name": "21:05",
+            "unit": "g",
+            "conversion_unit": null
+        }
+    }
+]

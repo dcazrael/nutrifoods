@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nutrifood"
+version = "0.1.0"
+description = "Gather Nutritional information easily"
+authors = ["Michael Sachdev <msachdev@live.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = { version = "*", allow-prereleases = true }
+django = "*"
+django-cors-headers = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+prospector = "*"
+python-dotenv = "*"
+requests = "*"
+psycopg2 = "^2.8.6"
+PyJWT = "^2.0.1"
+
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
