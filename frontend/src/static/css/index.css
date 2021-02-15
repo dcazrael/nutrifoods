@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-gradient {
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@layer utilities {
+    .purple-blue-gradient {
+        --tw-gradient-from: #60a5fa;
+        --tw-gradient-to: #8b5cf6;
+        --tw-gradient-stops: var(--tw-gradient-from),
+            var(--tw-gradient-to, rgba(96, 165, 250, 0));
+        background-image: linear-gradient(
+            to top left,
+            var(--tw-gradient-stops)
+        );
+    }
+    .green-teal-gradient {
+        --tw-gradient-from: rgba(45, 212, 191, 1);
+        --tw-gradient-to: rgba(132, 204, 22, 1);
+        --tw-gradient-stops: var(--tw-gradient-from),
+            var(--tw-gradient-to, rgba(96, 165, 250, 0));
+        background-image: linear-gradient(
+            to top left,
+            var(--tw-gradient-stops)
+        );
+    }
+}
+
+input:focus-within ~ label,
+input:not(:placeholder-shown) ~ label {
+    @apply transform scale-75 -translate-x-1 -translate-y-6;
+    @apply text-gray-600;
+}
+
+textarea:focus-within ~ label,
+textarea:not(:placeholder-shown) ~ label {
+    @apply transform scale-75 -translate-x-1 -translate-y-4;
+    @apply text-gray-600;
+}
+
+.search:focus-within ~ label,
+.search:not(:placeholder-shown) ~ label {
+    @apply transform scale-75 -translate-y-10;
+    @apply text-gray-600;
+}
+
+@media only screen and (max-width: 600px) {
+    .search:focus-within ~ label,
+    .search:not(:placeholder-shown) ~ label {
+        @apply transform -translate-y-9;
+        @apply text-gray-600;
+    }
+
+    .search ~ label {
+        font-size: 0.7em;
+    }
+}
+
+@layer utilities {
+    .no-spinner::-webkit-inner-spin-button,
+    .no-spinner::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+input.no-autofill-bg:-webkit-autofill {
+    -webkit-background-clip: text;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(174, 219, 255, 0.3) inset !important;
+}
+
+button:hover .icon {
+    @apply text-purple-700;
+}
