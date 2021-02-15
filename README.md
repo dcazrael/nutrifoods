@@ -43,7 +43,7 @@ python ./manage.py migrate
 After that, we have some fixtures (data we want to load into the DB) for the nutritional daily values of nutrients and food components, as well as nutrient data
 
 ```bash
-python ./manage.py loaddata ./api/fixtures/api_dailyvaluefoodcomponent ./api/fixtures/api_dailyvaluenutrient ./api/fixtures/api_nutrient
+python ./manage.py loaddata api/fixtures/api_dailyvaluefoodcomponent.json api/fixtures/api_dailyvaluenutrient.json api/fixtures/api_nutrient.json
 ```
 
 Once they are imported your backend is almost ready to run.
