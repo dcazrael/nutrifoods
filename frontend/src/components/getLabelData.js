@@ -29,8 +29,7 @@ const getLabelData = (
             }
         })
         .catch((error) => {
-            console.log(error);
-            console.log('hello');
+            console.log(error.response);
             if (error.response) {
                 // The request was made and the server responded with a status code 404
                 if (error.response.status === 404) {

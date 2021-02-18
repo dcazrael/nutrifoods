@@ -17,6 +17,13 @@ The backend serves as our API, calling Nutritionix and Spoonacular APIs for our 
 
 ## Installation
 
+### Requirements
+
+-   Poetry
+-   Node.js
+
+Start by cloning this repo into a folder you ahve read, write and execute rights.
+
 ### Backend
 
 Use the dependency manager "poetry" to install the backend component
@@ -27,16 +34,14 @@ poetry shell
 poetry install
 ```
 
-We are using PostgreSQL for this project, so you need to have that installed as well
+We are using PostgreSQL for this project, so you need to have the prerequesits for "psycopg2" installed.
 
 Copy the .env.example file and name it .env
-
 Change the values to your appropriate values
 
 Once your DB is created, you need to run migrations (from the backend folder)
 
 ```bash
-python ./manage.py makemigrations
 python ./manage.py migrate
 ```
 
@@ -49,14 +54,14 @@ python ./manage.py loaddata api/fixtures/api_dailyvaluefoodcomponent.json api/fi
 Once they are imported your backend is almost ready to run.
 The last thing you want to check is in the settings.py
 
-Make sure the keys are valid for your frontend
+Make sure the keys are valid for your frontend, since it isn't running on the same port.
+Example.
 
 ```python
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://localhost:5000",
     "http://localhost:8000",
-    "http://localhost:8080",
 ]
 ```
 
@@ -79,7 +84,7 @@ The other keys are used in the footer for some templating
 Add the keys you need and leave the ones out you don't
 
 For local development, you need to proxy the requests for Axios.
-The proxy is set to http://localhost:8000 when you clone the repo.
+The proxy is set to http://localhost:8000 (your django backend) when you clone the repo.
 
 ## Usage
 

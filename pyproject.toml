@@ -12,10 +12,10 @@ django-cors-headers = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 prospector = "*"
-python-dotenv = "*"
 requests = "*"
 psycopg2 = "^2.8.6"
 PyJWT = "^2.0.1"
+python-dotenv = "^0.15.0"
 
 
 
