@@ -22,7 +22,7 @@ The backend serves as our API, calling Nutritionix and Spoonacular APIs for our 
 -   Poetry
 -   Node.js
 
-Start by cloning this repo into a folder you ahve read, write and execute rights.
+Start by cloning this repo into a folder you have read, write and execute rights.
 
 ### Backend
 
@@ -92,7 +92,7 @@ Start backend server
 
 ```bash
 cd backend
-poetry shell (if you haven't started it already)
+poetry shell (if you haven\'t started it already)
 python ./manage.py runserver
 ```
 
